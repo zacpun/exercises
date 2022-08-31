@@ -1,0 +1,21 @@
+p {
+    color: pink;
+    background: yellow;
+    
+}
+h1{
+    color: salmon;
+}
+a{
+    text-decoration: none;
+    
+}
+.highlight{
+    background: blue;
+    font-size: 20px;
+    color: white;
+}
+
+.bigger{
+    font-size: 40px;
+}

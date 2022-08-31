@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .add {
+        background-color: yellow;
+        border-radius: 18px;
+        border: none;
+        cursor: pointer;
+        height: 30px;
+        width: 110px;
+        transition: opacity 0.15s;
+      }
+      .add:hover {
+        background-color: rgb(247, 202, 0);
+      }
+      .add:active {
+        opacity: 0.5;
+      }
+      .buy {
+        background-color: rgb(255, 164, 28);
+        border-radius: 18px;
+        border: none;
+        cursor: pointer;
+        width: 110px;
+        height: 30px;
+        transition: opacity 0.15s;
+      }
+      .buy:hover {
+        background-color: rgb(250, 137, 0);
+      }
+      .buy:active {
+        opacity: 0.5;
+      }
+      .price {
+        color: green;
+      }
+      .link {
+        color: aqua;
+        transition: color 0.15s;
+      }
+      .link:hover {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="link" href="https://amazon.com" target="_blank">Back to Amazon</a>
+    <h1 class="title">Nike Black Running Shoes</h1>
+    <p class="price">$39 - in stock.</p>
+    <p>Free delivery tomorrow.</p>
+    <button class="add">Add to Cart</button>
+    <button class="buy">Buy now</button>
+  </body>
+</html>
